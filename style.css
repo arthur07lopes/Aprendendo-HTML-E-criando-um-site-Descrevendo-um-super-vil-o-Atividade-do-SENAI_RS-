@@ -127,6 +127,19 @@ main {
     padding: 28px;
     border: 1px solid rgba(255, 255, 255, 0.12);
     background: #0b0b0b;
+    transition: transform 0.3s ease,
+            border-color 0.3s ease,
+            box-shadow 0.3s ease;
+}
+
+.power-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--vermelho-brilhante);
+    box-shadow: 0 0 25px rgba(215, 31, 46, 0.25);
+}
+
+.power-card:hover strong {
+    color: var(--vermelho-brilhante);
 }
 
 .power-card strong {
