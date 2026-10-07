@@ -78,28 +78,6 @@ main {
     border-top: 1px solid rgba(215, 31, 46, 0.45);
 }
 
-.warning {
-    margin: 0 0 40px;
-    color: var(--vermelho-brilhante);
-    font-size: 0.85rem;
-    font-weight: bold;
-    letter-spacing: 0.3em;
-    text-align: center;
-    animation: warning-pulse 2s infinite;
-}
-
-@keyframes warning-pulse {
-
-    0%,
-    100% {
-        opacity: 0.4;
-    }
-
-    50% {
-        opacity: 1;
-    }
-}
-
 .intro-content h2,
 .powers h2,
 .video h2 {
@@ -124,40 +102,6 @@ main {
     font-size: 1.2rem;
     font-style: italic;
 }
-.threat {
-    margin-top: 36px;
-}
-
-.threat strong {
-    display: block;
-    margin-bottom: 10px;
-    color: var(--cinza-claro);
-    font-size: 0.9rem;
-    letter-spacing: 0.2em;
-}
-
-.threat-bar {
-    width: 100%;
-    height: 12px;
-    background: #222;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.threat-bar div {
-    width: 100%;
-    height: 100%;
-    background: var(--vermelho-brilhante);
-    box-shadow: 0 0 15px rgba(215, 31, 46, 0.6);
-}
-
-.threat span {
-    display: block;
-    margin-top: 8px;
-    color: var(--vermelho-brilhante);
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 0.25em;
-}
 
 .intro-image {
     margin: 0;
@@ -168,12 +112,6 @@ main {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     border: 1px solid var(--vermelho);
-    transition: transform 0.5s ease, filter 0.5s ease;
-}
-
-.intro-image img:hover {
-    transform: scale(1.03);
-    filter: brightness(0.7) contrast(1.2);
 }
 
 .intro-image figcaption {

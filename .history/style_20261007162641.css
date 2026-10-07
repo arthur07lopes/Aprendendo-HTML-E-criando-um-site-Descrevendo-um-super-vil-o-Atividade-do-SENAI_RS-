@@ -124,40 +124,6 @@ main {
     font-size: 1.2rem;
     font-style: italic;
 }
-.threat {
-    margin-top: 36px;
-}
-
-.threat strong {
-    display: block;
-    margin-bottom: 10px;
-    color: var(--cinza-claro);
-    font-size: 0.9rem;
-    letter-spacing: 0.2em;
-}
-
-.threat-bar {
-    width: 100%;
-    height: 12px;
-    background: #222;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.threat-bar div {
-    width: 100%;
-    height: 100%;
-    background: var(--vermelho-brilhante);
-    box-shadow: 0 0 15px rgba(215, 31, 46, 0.6);
-}
-
-.threat span {
-    display: block;
-    margin-top: 8px;
-    color: var(--vermelho-brilhante);
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 0.25em;
-}
 
 .intro-image {
     margin: 0;
